@@ -6,7 +6,11 @@ body{
 .form input , textarea{ 
     margin: 5px;
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+
 }
+
 .head{
     
     margin: 0% 36%;
@@ -17,7 +21,7 @@ body{
 
 .contanier{
     width: 20%;
-    height: 415px;
+    height: 465px;
 margin: 0% 40%;
 background-color: #638596;
 padding-left: 35px;
