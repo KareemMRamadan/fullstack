@@ -1,27 +1,5 @@
-
-body{
-    background-color:#93b9d5;
-   
-}
-
-.form input , textarea{ 
-    width: 90%;
-    margin: 5px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.head{
-    
-    margin: 0% 36%;
-    text-align: center;
-    padding-bottom: 100px;
-    padding-left: 355px;
-}
-
 .contanier{
+    max-width: 80%;
     width: 30%;
     height: 590px;
     margin: 0% 40%;
@@ -30,95 +8,10 @@ body{
     padding-top: 55px;
     align-content: center;
 }
-.img1{
-    display: block;
-    border-radius: 10%;
-    width: 200px;
-    margin-left: -15px;
-   
-    
-}
-.contanier2{
-    margin-top: -140px;
-    font-family: "Cairo", sans-serif;
-}
 
 
-.h1{
 
-width: 25px;
-height: 25px;
-}
-
-.h2{
-    width: 25px;
-    height: 25px;
-}
 .e1{
     width: 25px;
     
 } 
-input:hover , 
-textarea:hover {
-    border: 3px solid #1a1919;
-    transition: 0.5s;
-}
-input , textarea {
-    font-family: "Cairo", sans-serif; 
-}
-
-
-.icons{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: 400;
-}
-
-.icons a {
-    text-decoration: none;
-    color: #000;
-}
-
-.icons a:hover{
-color: rgb(178, 200, 224);
-}
-
-.icons img{
-    display: flex;
-    background-color:#93b9d5;
-    margin-left: -33px;
-    margin-bottom: -22px;
-    
-}
-input[type=submit]{
-    background-color: #93b9d5 ;
-    border: 5px solid  #638596;
-    border-radius: 15px;
-   
-}
-
-input[type=submit]:hover{
-background-color:  #638596;
-   cursor: pointer;
-    
-} 
-
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
-    .contanier{
-      background-color: rgb(59, 146, 217);
-      max-width: 90%;
-    }
-  }
-  
-  /* On screens that are 600px or less, set the background color to olive */
-  @media screen and (max-width: 600px) {
-    body{
-        background-color: #082737;
-    }
-    .contanier{
-        background-color: rgb(26, 169, 208);
-        max-width: 70%;
-      }
-  }
